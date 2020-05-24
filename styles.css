@@ -1,0 +1,34 @@
+#container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -38px;
+  z-index: 999;
+}
+
+
+#myBtn {
+  position: relative;
+  bottom: 230px;
+  left: 169px;
+  height: 60px;
+  width: 63px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
